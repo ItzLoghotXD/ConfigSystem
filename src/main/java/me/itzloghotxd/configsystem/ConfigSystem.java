@@ -11,7 +11,8 @@ public final class ConfigSystem extends JavaPlugin {
     public void onEnable() {
         plugin = this;
         configManager = new ConfigManager();
-
+        configManager.loadFiles(this);
+        getServer().getPluginManager().registerEvents(new test(), this);
     }
 
     public void onDisable() {
