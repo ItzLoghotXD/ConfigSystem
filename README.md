@@ -136,7 +136,7 @@ The ConfigSystem project is licensed under the MIT License. See the [LICENSE](LI
 
 # Thankyou/Donations
 
-Thank you for using `GameMenu`! If you have any questions or need support, please open an issue on the [GitHub repository](https://github.com/ItzLoghotXD/GameMenu/issues).
+Thank you for using `ConfigSystem`! If you have any questions or need support, please open an issue on the [GitHub repository](https://github.com/ItzLoghotXD/GameMenu/issues).
 
 I work on this Project with the little amount of free time that I have. Please feel free to donate via Crypto any amount you desire to show your support, and help me stay motivated to keep this project going. Thank You!<br>
 * Bitcoin (BTC) Address: bc1qgarxwpp4rn3y5h8hwmhc6a5cpwzqqu3p5pun07
