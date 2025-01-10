@@ -1,0 +1,4 @@
+name: ConfigSystem
+version: '${project.version}'
+main: me.itzloghotxd.configsystem.ConfigSystem
+api-version: '1.16'

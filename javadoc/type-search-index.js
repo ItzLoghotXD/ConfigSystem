@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"me.itzloghotxd.configsystem.config","l":"ConfigHandler"},{"p":"me.itzloghotxd.configsystem.config","l":"ConfigManager"},{"p":"me.itzloghotxd.configsystem","l":"ConfigSystem"},{"p":"me.itzloghotxd.configsystem.config","l":"ConfigType"}];updateSearchResults();
