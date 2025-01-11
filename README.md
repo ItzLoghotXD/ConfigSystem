@@ -24,8 +24,7 @@ To use the ConfigSystem in your Minecraft plugin, you will need to include its f
 2. Then extract the `.zip` file.
 3. And make a package `config` then:
    * make three files `ConfigType.java`, `ConfigHandler.java`, and `ConfigManager.java`
-4. Then copy the content of the extracted file(s) and put the content in the respected file(s) and replace the [MainClassName] placeholder in `ConfigManager.java`, as shown in this video.<br>
-![file_video](https://raw.githubusercontent.com/ItzLoghotXD/ConfigSystem/main/assets/file_video.mkv)
+4. Then copy the content of the extracted file(s) and put the content in the respected file(s) and replace the [MainClassName] placeholder in `ConfigManager.java`, as shown in these videos [here](assets/tutorial).
 
 ## Usage
 
@@ -35,7 +34,7 @@ The ConfigSystem is designed to be easy to use. Below are examples of how to cre
 
 To create a basic configuration file, follow these steps:
 1. Import the `configManager.java` class to the `main` class.
-2. Then make a `singleton instance` of the `main` class and `ConfigMandger.java` class.
+2. Then make a `singleton instance` of the `main` class and `ConfigManager.java` class.
 3. And then make a getter for the instance.
 
 #### Code Examples
@@ -46,7 +45,6 @@ Code Example:
 // Example main class
 package me.itzloghotxd.configsystem;
 
-import junit.framework.TestListener;
 import me.itzloghotxd.configsystem.config.ConfigManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -63,7 +61,7 @@ public final class ConfigSystem extends JavaPlugin {
         configManager = new ConfigManager();
 
         // Register the event listener
-        getServer().getPluginManager().registerEvents(new Test(), this);
+        getServer().getPluginManager().registerEvents(new test(), this);
 
     }
 
